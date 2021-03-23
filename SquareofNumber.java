@@ -1,4 +1,5 @@
 /*4.Java Program to find the square of a number*/
+
 import java.util.Scanner;
 class SquareofNumber{
 
