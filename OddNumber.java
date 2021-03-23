@@ -1,5 +1,6 @@
 /*8.Java program to find the odd numbers between 0 -100 */
 
+
 class OddNumber{
 	static void odd()
 	{
