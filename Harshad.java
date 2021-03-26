@@ -1,5 +1,4 @@
 /*23.Java program to check whether a number is a Harshad Number or not.*/
-
 import java.util.*;
 class Harshad
 {
