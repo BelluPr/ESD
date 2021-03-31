@@ -1,4 +1,5 @@
 /*44.java program to count the repeted occurance of a digit in a n-digit number.*/
+import java.util.Scanner;
 class Occurance{
 int a,b;
 void repeat(int x, int y)
@@ -17,8 +18,14 @@ count++;
 }
 System.out.println("Count "+count);
 }
-public static void main(String[] args) {
-Repeat obj = new Repeat();
-obj.repeat(22754722,2);
+public static void main(String[] args) 
+{
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the number");
+	int n = sc.nextInt();
+	System.out.println("Enter the digit to be checked");
+	int n1 = sc.nextInt();
+	Occurance o1 = new Occurance();
+	o1.repeat(n,n1);
 }
 }
