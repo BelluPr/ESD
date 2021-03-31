@@ -1,5 +1,4 @@
 /*32. Implement java program to find any number between 1 and n that can be expressed as the sum of two cubes in two (or more) different ways*/
-
 class SumofCubes{
 public static void main(String[] args) {
 int n = 999999;
