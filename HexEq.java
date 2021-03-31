@@ -1,3 +1,5 @@
+/*51.Find the hexadecimal equivalent for a given 4-digit binary number.*/
+import java.util.Scanner;
 class HexEq{
 int a;
 void hex(int x)
@@ -68,10 +70,13 @@ else if(a==1111)
 System.out.println("F");
 }
 }
-public static void main(String[] args) {
-Hexa obj = new Hexa();
-obj.hex(0001);
-Hexa obj1 = new Hexa();
-obj1.hex(1101);
+public static void main(String[] args) 
+{
+	Scanner sc =new Scanner(System.in);
+	System.out.println("Enter the 4 digit binary number");
+	int a= sc.nextInt();
+	HexEq h1 = new HexEq();
+	h1.hex(a);
+
 }
 }
